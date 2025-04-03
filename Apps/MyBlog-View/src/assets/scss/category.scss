@@ -1,0 +1,102 @@
+.right {
+    .right-title {
+        padding-left: 10px;
+        font-size: 16px;
+        border-bottom: 1px solid #ddd;
+        line-height: 40px;
+        .more {
+            float: right;
+            font-size: 13px;
+        }
+    }
+
+    .category-path{
+        background-color: #f6f8f9;
+        margin: 10px;
+        margin-bottom: 20px;
+        padding: 5px 10px 10px 10px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+      }
+      
+      .part-title{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px 10px;
+        font-weight: bold;
+        border-bottom:1px solid #bdc7ce;
+        padding-bottom: 10px;
+        .a-link{
+            text-decoration: none; 
+            font-weight: bold; 
+            color: #4b73eb; 
+            font-size: 14px 
+        }
+        .category-list{
+        margin: 10px 10px;
+        }
+      
+        .adminCount{
+            width: 40px;
+            font-size: 13px;
+            margin-left: 10px;
+            text-align: right;
+            color: #999aaa;
+        }
+      }
+
+    .category-item{
+        display:flex;
+        margin: -5px;
+        padding: 10px;
+        align-items: center;
+        transition: background-color 0.3s ease;
+            &:hover 
+            {
+                background-color: #c8cfdb;
+                border-radius: 8px;
+                .name{
+                    color: #fff;
+                }
+    
+                .category-icon {
+                transform: scale(1.2);  // 图片放大
+                transition: transform 0.3s ease;  // 平滑过渡效果
+                }
+            }
+        .category-icon{
+            background: #ebedf5;
+            display: flex; /* 新增: 使用 flex 布局 */
+            align-items: center;
+            border-radius: 6px;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            overflow: hidden;
+            img{
+                width: 100%;
+            }
+        }
+        .category-name{
+            //flex: 1 表示这个元素将尝试占据所有的可用空间，并且在所有具有 flex: 1 属性的元素之间平均分配
+            flex: 1;
+            color:#4b73eb ;
+            font-size: 16px;
+            // word-break单词换行，keep-all表示不会自动换行
+            word-break: keep-all;
+            //white-space 文字空白处，nowrap文本不会换行集中在一行显示
+            white-space: nowrap;
+            //overflow 超出显示的内容，hidden超出的文字会隐藏
+            overflow: hidden;
+            margin-left: 5px;
+            text-overflow: ellipsis;
+        }
+        .category-count{
+            width: 40px;
+            font-size: 13px;
+            text-align: right;
+            color: #999aaa;
+        }
+    }
+}

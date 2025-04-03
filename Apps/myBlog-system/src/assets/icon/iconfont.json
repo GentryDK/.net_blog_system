@@ -1,0 +1,23 @@
+{
+  "id": "4735835",
+  "name": "博客系统",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "vue3+ts+abpVnext博客系统",
+  "glyphs": [
+    {
+      "icon_id": "5810179",
+      "name": "back",
+      "font_class": "back1",
+      "unicode": "e7e5",
+      "unicode_decimal": 59365
+    },
+    {
+      "icon_id": "11770177",
+      "name": "back",
+      "font_class": "back",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    }
+  ]
+}

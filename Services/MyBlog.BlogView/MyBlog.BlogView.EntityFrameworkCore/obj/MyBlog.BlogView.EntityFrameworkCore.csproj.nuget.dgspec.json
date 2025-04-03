@@ -1,0 +1,202 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogView\\MyBlog.BlogView.EntityFrameworkCore\\MyBlog.BlogView.EntityFrameworkCore.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogView\\MyBlog.BlogView.Domain\\MyBlog.BlogView.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogView\\MyBlog.BlogView.Domain\\MyBlog.BlogView.Domain.csproj",
+        "projectName": "MyBlog.BlogView.Domain",
+        "projectPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogView\\MyBlog.BlogView.Domain\\MyBlog.BlogView.Domain.csproj",
+        "packagesPath": "C:\\Users\\DK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogView\\MyBlog.BlogView.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\DK\\Desktop\\Community\\nupkgs": {},
+          "C:\\Users\\DK\\Desktop\\MyBlog\\Nupkgs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Abp.AspNet.JwpBearer": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Abp.AspNet.JwtBearer": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "FileUploadExtension": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "HtmlSanitizer": {
+              "target": "Package",
+              "version": "[8.1.870, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Volo.Abp.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.Ddd.Domain": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.DistributedLocking": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.Users.Domain.Shared": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogView\\MyBlog.BlogView.EntityFrameworkCore\\MyBlog.BlogView.EntityFrameworkCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogView\\MyBlog.BlogView.EntityFrameworkCore\\MyBlog.BlogView.EntityFrameworkCore.csproj",
+        "projectName": "MyBlog.BlogView.EntityFrameworkCore",
+        "projectPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogView\\MyBlog.BlogView.EntityFrameworkCore\\MyBlog.BlogView.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\DK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogView\\MyBlog.BlogView.EntityFrameworkCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\DK\\Desktop\\Community\\nupkgs": {},
+          "C:\\Users\\DK\\Desktop\\MyBlog\\Nupkgs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogView\\MyBlog.BlogView.Domain\\MyBlog.BlogView.Domain.csproj": {
+                "projectPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogView\\MyBlog.BlogView.Domain\\MyBlog.BlogView.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Volo.Abp.Core": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.EntityFrameworkCore.MySQL": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

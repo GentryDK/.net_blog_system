@@ -1,0 +1,554 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem\\MyBlog.BlogSystem.web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Application.Contract\\MyBlog.BlogSystem.Application.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Application.Contract\\MyBlog.BlogSystem.Application.Contract.csproj",
+        "projectName": "MyBlog.BlogSystem.Application.Contract",
+        "projectPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Application.Contract\\MyBlog.BlogSystem.Application.Contract.csproj",
+        "packagesPath": "C:\\Users\\DK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Application.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\DK\\Desktop\\Community\\nupkgs": {},
+          "C:\\Users\\DK\\Desktop\\MyBlog\\Nupkgs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Domain\\MyBlog.BlogSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Domain\\MyBlog.BlogSystem.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Volo.Abp.Ddd.Application.Contracts": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Application\\MyBlog.BlogSystem.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Application\\MyBlog.BlogSystem.Application.csproj",
+        "projectName": "MyBlog.BlogSystem.Application",
+        "projectPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Application\\MyBlog.BlogSystem.Application.csproj",
+        "packagesPath": "C:\\Users\\DK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\DK\\Desktop\\Community\\nupkgs": {},
+          "C:\\Users\\DK\\Desktop\\MyBlog\\Nupkgs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Application.Contract\\MyBlog.BlogSystem.Application.Contract.csproj": {
+                "projectPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Application.Contract\\MyBlog.BlogSystem.Application.Contract.csproj"
+              },
+              "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Domain\\MyBlog.BlogSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Domain\\MyBlog.BlogSystem.Domain.csproj"
+              },
+              "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.EntityFrameworkCore\\MyBlog.BlogSystem.EntityFrameworkCore.csproj": {
+                "projectPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.EntityFrameworkCore\\MyBlog.BlogSystem.EntityFrameworkCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "DistributedLock": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Volo.Abp.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.AutoMapper": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.Ddd.Application": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Domain\\MyBlog.BlogSystem.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Domain\\MyBlog.BlogSystem.Domain.csproj",
+        "projectName": "MyBlog.BlogSystem.Domain",
+        "projectPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Domain\\MyBlog.BlogSystem.Domain.csproj",
+        "packagesPath": "C:\\Users\\DK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\DK\\Desktop\\Community\\nupkgs": {},
+          "C:\\Users\\DK\\Desktop\\MyBlog\\Nupkgs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Abp.AspNet.JwpBearer": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "FileUploadExtension": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "HtmlSanitizer": {
+              "target": "Package",
+              "version": "[8.1.870, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Volo.Abp.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.Ddd.Domain": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.DistributedLocking": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.EntityFrameworkCore\\MyBlog.BlogSystem.EntityFrameworkCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.EntityFrameworkCore\\MyBlog.BlogSystem.EntityFrameworkCore.csproj",
+        "projectName": "MyBlog.BlogSystem.EntityFrameworkCore",
+        "projectPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.EntityFrameworkCore\\MyBlog.BlogSystem.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\DK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.EntityFrameworkCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\DK\\Desktop\\Community\\nupkgs": {},
+          "C:\\Users\\DK\\Desktop\\MyBlog\\Nupkgs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Domain\\MyBlog.BlogSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Domain\\MyBlog.BlogSystem.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Volo.Abp.Core": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.EntityFrameworkCore.MySQL": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.HttpApi.Client\\MyBlog.BlogSystem.HttpApi.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.HttpApi.Client\\MyBlog.BlogSystem.HttpApi.Client.csproj",
+        "projectName": "MyBlog.BlogSystem.HttpApi.Client",
+        "projectPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.HttpApi.Client\\MyBlog.BlogSystem.HttpApi.Client.csproj",
+        "packagesPath": "C:\\Users\\DK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.HttpApi.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\DK\\Desktop\\Community\\nupkgs": {},
+          "C:\\Users\\DK\\Desktop\\MyBlog\\Nupkgs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Application.Contract\\MyBlog.BlogSystem.Application.Contract.csproj": {
+                "projectPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Application.Contract\\MyBlog.BlogSystem.Application.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Volo.Abp.Http.Client": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem\\MyBlog.BlogSystem.web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem\\MyBlog.BlogSystem.web.csproj",
+        "projectName": "MyBlog.BlogSystem.web",
+        "projectPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem\\MyBlog.BlogSystem.web.csproj",
+        "packagesPath": "C:\\Users\\DK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\DK\\Desktop\\Community\\nupkgs": {},
+          "C:\\Users\\DK\\Desktop\\MyBlog\\Nupkgs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Application.Contract\\MyBlog.BlogSystem.Application.Contract.csproj": {
+                "projectPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Application.Contract\\MyBlog.BlogSystem.Application.Contract.csproj"
+              },
+              "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Application\\MyBlog.BlogSystem.Application.csproj": {
+                "projectPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Application\\MyBlog.BlogSystem.Application.csproj"
+              },
+              "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Domain\\MyBlog.BlogSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.Domain\\MyBlog.BlogSystem.Domain.csproj"
+              },
+              "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.HttpApi.Client\\MyBlog.BlogSystem.HttpApi.Client.csproj": {
+                "projectPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem.HttpApi.Client\\MyBlog.BlogSystem.HttpApi.Client.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Volo.Abp.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Volo.Abp.Autofac": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

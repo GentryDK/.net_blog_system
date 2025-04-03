@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "8tCnREFijkFoCGrfJa75KFX8lvHA9n1T1TyEc7nCrmw=",
+  "Source": "MyBlog.BlogSystem.web",
+  "BasePath": "_content/MyBlog.BlogSystem.web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MyBlog.BlogSystem.web\\wwwroot",
+      "Source": "MyBlog.BlogSystem.web",
+      "ContentRoot": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.BlogSystem\\MyBlog.BlogSystem\\wwwroot\\",
+      "BasePath": "_content/MyBlog.BlogSystem.web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

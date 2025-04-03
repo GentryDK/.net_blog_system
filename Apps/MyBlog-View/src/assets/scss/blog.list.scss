@@ -1,0 +1,84 @@
+.blog-list {
+    .blog-item {
+        border-bottom: 1px solid #ddd;
+        padding: 20px 20px;
+        display: flex;
+        &:hover {
+            border-radius: 15px;
+
+            background-color: #90acc4;  // 背景色变深
+            color: #63729b;  // 文字颜色变暗
+            .blog-item-content{
+              color: #fff;
+            }
+            .blog-item-content .blog-summary{
+              color: #fff;
+            }
+
+            .blog-item-content .create-time{
+                color: #fff;
+              }
+              
+            .blog-item-content .nick-name{
+                color: #fff;
+              }
+            .blog-cover {
+              transform: scale(1.2);  // 鼠标悬停时图片变大
+            }
+  
+          }
+          .blog-item-content{
+            padding-left: 10px;
+          }
+        .blog-cover {
+            width: 110px;
+            height: 110px;
+            display: flex;
+            align-items: center;
+            background: #ddd;
+            margin-right: 10px;
+            border-radius: 4px;
+            overflow: hidden;
+
+            img {
+                max-width: 100%;
+            }
+        }
+
+        .blog-item-content {
+            flex: 1;
+            
+            .title a {
+                font-size: 18px;
+                font-weight: 400;
+            }
+
+            .blog-summary {
+                word-break: break-all;
+                margin-top: 6px;
+                font-size: 14px;
+                line-height: 22px;
+                white-space: normal;
+                color: #999aaa;
+                display: block;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+            }
+
+            .blog-info {
+                display: flex;
+                color: #5f6471;
+                margin-top: 10px;
+                font-size: 12px;
+                align-items: center;
+
+                .nick-name {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}

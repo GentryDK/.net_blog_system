@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Modules\\Abp.AspNet.JwpBearer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A12504A-0749-48DF-BAA4-BD215762A0CC}|Abp.AspNet.JwpBearer\\Abp.AspNet.JwpBearer.csproj|c:\\users\\dk\\desktop\\myblog\\modules\\abp.aspnet.jwpbearer\\abp.aspnet.jwpbearer\\jwtcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A12504A-0749-48DF-BAA4-BD215762A0CC}|Abp.AspNet.JwpBearer\\Abp.AspNet.JwpBearer.csproj|solutionrelative:abp.aspnet.jwpbearer\\jwtcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A12504A-0749-48DF-BAA4-BD215762A0CC}|Abp.AspNet.JwpBearer\\Abp.AspNet.JwpBearer.csproj|c:\\users\\dk\\desktop\\myblog\\modules\\abp.aspnet.jwpbearer\\abp.aspnet.jwpbearer\\abpaspnetbearermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A12504A-0749-48DF-BAA4-BD215762A0CC}|Abp.AspNet.JwpBearer\\Abp.AspNet.JwpBearer.csproj|solutionrelative:abp.aspnet.jwpbearer\\abpaspnetbearermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A12504A-0749-48DF-BAA4-BD215762A0CC}|Abp.AspNet.JwpBearer\\Abp.AspNet.JwpBearer.csproj|c:\\users\\dk\\desktop\\myblog\\modules\\abp.aspnet.jwpbearer\\abp.aspnet.jwpbearer\\tokencreatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A12504A-0749-48DF-BAA4-BD215762A0CC}|Abp.AspNet.JwpBearer\\Abp.AspNet.JwpBearer.csproj|solutionrelative:abp.aspnet.jwpbearer\\tokencreatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A12504A-0749-48DF-BAA4-BD215762A0CC}|Abp.AspNet.JwpBearer\\Abp.AspNet.JwpBearer.csproj|c:\\users\\dk\\desktop\\myblog\\modules\\abp.aspnet.jwpbearer\\abp.aspnet.jwpbearer\\abp.aspnet.jwpbearer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9A12504A-0749-48DF-BAA4-BD215762A0CC}|Abp.AspNet.JwpBearer\\Abp.AspNet.JwpBearer.csproj|solutionrelative:abp.aspnet.jwpbearer\\abp.aspnet.jwpbearer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Abp.AspNet.JwpBearer.csproj",
+              "DocumentMoniker": "C:\\Users\\DK\\Desktop\\MyBlog\\Modules\\Abp.AspNet.JwpBearer\\Abp.AspNet.JwpBearer\\Abp.AspNet.JwpBearer.csproj",
+              "RelativeDocumentMoniker": "Abp.AspNet.JwpBearer\\Abp.AspNet.JwpBearer.csproj",
+              "ToolTip": "C:\\Users\\DK\\Desktop\\MyBlog\\Modules\\Abp.AspNet.JwpBearer\\Abp.AspNet.JwpBearer\\Abp.AspNet.JwpBearer.csproj",
+              "RelativeToolTip": "Abp.AspNet.JwpBearer\\Abp.AspNet.JwpBearer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-10T14:30:08.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TokenCreateModel.cs",
+              "DocumentMoniker": "C:\\Users\\DK\\Desktop\\MyBlog\\Modules\\Abp.AspNet.JwpBearer\\Abp.AspNet.JwpBearer\\TokenCreateModel.cs",
+              "RelativeDocumentMoniker": "Abp.AspNet.JwpBearer\\TokenCreateModel.cs",
+              "ToolTip": "C:\\Users\\DK\\Desktop\\MyBlog\\Modules\\Abp.AspNet.JwpBearer\\Abp.AspNet.JwpBearer\\TokenCreateModel.cs",
+              "RelativeToolTip": "Abp.AspNet.JwpBearer\\TokenCreateModel.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAADwvx4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T14:31:15.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JwtCreator.cs",
+              "DocumentMoniker": "C:\\Users\\DK\\Desktop\\MyBlog\\Modules\\Abp.AspNet.JwpBearer\\Abp.AspNet.JwpBearer\\JwtCreator.cs",
+              "RelativeDocumentMoniker": "Abp.AspNet.JwpBearer\\JwtCreator.cs",
+              "ToolTip": "C:\\Users\\DK\\Desktop\\MyBlog\\Modules\\Abp.AspNet.JwpBearer\\Abp.AspNet.JwpBearer\\JwtCreator.cs",
+              "RelativeToolTip": "Abp.AspNet.JwpBearer\\JwtCreator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T14:30:52.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AbpAspNetBearerModule.cs",
+              "DocumentMoniker": "C:\\Users\\DK\\Desktop\\MyBlog\\Modules\\Abp.AspNet.JwpBearer\\Abp.AspNet.JwpBearer\\AbpAspNetBearerModule.cs",
+              "RelativeDocumentMoniker": "Abp.AspNet.JwpBearer\\AbpAspNetBearerModule.cs",
+              "ToolTip": "C:\\Users\\DK\\Desktop\\MyBlog\\Modules\\Abp.AspNet.JwpBearer\\Abp.AspNet.JwpBearer\\AbpAspNetBearerModule.cs",
+              "RelativeToolTip": "Abp.AspNet.JwpBearer\\AbpAspNetBearerModule.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T14:30:33.806Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

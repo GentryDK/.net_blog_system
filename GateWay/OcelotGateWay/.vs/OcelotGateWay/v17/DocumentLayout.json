@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DK\\Desktop\\MyBlog\\GateWay\\OcelotGateWay\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E7599C0-CD6F-4E65-A898-3FDCDF94B347}|OcelotGateWay\\OcelotGateWay.csproj|c:\\users\\dk\\desktop\\myblog\\gateway\\ocelotgateway\\ocelotgateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5E7599C0-CD6F-4E65-A898-3FDCDF94B347}|OcelotGateWay\\OcelotGateWay.csproj|solutionrelative:ocelotgateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E7599C0-CD6F-4E65-A898-3FDCDF94B347}|OcelotGateWay\\OcelotGateWay.csproj|c:\\users\\dk\\desktop\\myblog\\gateway\\ocelotgateway\\ocelotgateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E7599C0-CD6F-4E65-A898-3FDCDF94B347}|OcelotGateWay\\OcelotGateWay.csproj|solutionrelative:ocelotgateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E7599C0-CD6F-4E65-A898-3FDCDF94B347}|OcelotGateWay\\OcelotGateWay.csproj|c:\\users\\dk\\desktop\\myblog\\gateway\\ocelotgateway\\ocelotgateway\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E7599C0-CD6F-4E65-A898-3FDCDF94B347}|OcelotGateWay\\OcelotGateWay.csproj|solutionrelative:ocelotgateway\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\DK\\Desktop\\MyBlog\\GateWay\\OcelotGateWay\\OcelotGateWay\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "OcelotGateWay\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\DK\\Desktop\\MyBlog\\GateWay\\OcelotGateWay\\OcelotGateWay\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "OcelotGateWay\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T13:07:53.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DK\\Desktop\\MyBlog\\GateWay\\OcelotGateWay\\OcelotGateWay\\appsettings.json",
+              "RelativeDocumentMoniker": "OcelotGateWay\\appsettings.json",
+              "ToolTip": "C:\\Users\\DK\\Desktop\\MyBlog\\GateWay\\OcelotGateWay\\OcelotGateWay\\appsettings.json",
+              "RelativeToolTip": "OcelotGateWay\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-13T12:49:13.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DK\\Desktop\\MyBlog\\GateWay\\OcelotGateWay\\OcelotGateWay\\Program.cs",
+              "RelativeDocumentMoniker": "OcelotGateWay\\Program.cs",
+              "ToolTip": "C:\\Users\\DK\\Desktop\\MyBlog\\GateWay\\OcelotGateWay\\OcelotGateWay\\Program.cs",
+              "RelativeToolTip": "OcelotGateWay\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T12:41:18.201Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

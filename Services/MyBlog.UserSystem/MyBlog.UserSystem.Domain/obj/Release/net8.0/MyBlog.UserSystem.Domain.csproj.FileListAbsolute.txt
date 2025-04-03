@@ -1,0 +1,12 @@
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Domain\bin\Release\net8.0\MyBlog.UserSystem.Domain.deps.json
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Domain\bin\Release\net8.0\MyBlog.UserSystem.Domain.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Domain\bin\Release\net8.0\MyBlog.UserSystem.Domain.pdb
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Domain\obj\Release\net8.0\MyBlog.UserSystem.Domain.csproj.AssemblyReference.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Domain\obj\Release\net8.0\MyBlog.UserSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Domain\obj\Release\net8.0\MyBlog.UserSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Domain\obj\Release\net8.0\MyBlog.UserSystem.Domain.AssemblyInfo.cs
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Domain\obj\Release\net8.0\MyBlog.UserSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Domain\obj\Release\net8.0\MyBlog.UserSystem.Domain.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Domain\obj\Release\net8.0\refint\MyBlog.UserSystem.Domain.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Domain\obj\Release\net8.0\MyBlog.UserSystem.Domain.pdb
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Domain\obj\Release\net8.0\ref\MyBlog.UserSystem.Domain.dll

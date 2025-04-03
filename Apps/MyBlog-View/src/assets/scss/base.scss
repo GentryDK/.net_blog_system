@@ -1,0 +1,111 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background: #ccccd1;
+}
+// box-sizing 属性
+// content-box（默认值）: 元素的宽度和高度只包括内容区域，不包括内边距（padding）和边框（border）。
+// border-box: 元素的宽度和高度包括内容区域、内边距和边框。
+*{
+  box-sizing: border-box;
+}
+
+.top{
+  height: 80px;
+  position: fixed;
+  box-shadow: 0px 2px 6px 0 #085ae8;
+  width: 100%;
+  background: #468af7;
+  //指定元素的堆叠顺序,数字越大越靠上
+  z-index: 1000;
+  .top-nav{
+    height: 80px;
+    width: 1350px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    line-height: 80px;
+
+    .logo{
+      font-size: 30px;
+      font-weight: bold;
+      color: #ffffff;
+      text-decoration: none;
+      margin-right: 10px;
+    }
+    .nav-item{
+      padding: 0 25px;
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+    }
+    .nav-item:hover{
+      color: #0e8ff2;
+      text-shadow: #ffffff;
+      font-weight: bold;
+      font-size: 20px;
+      background-color: #1e5fee;
+    }
+
+    .nav-item2{
+      margin-left: auto;
+      height: 80px;
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      padding: 0 25px;
+      display: flex;
+      .nav-item2-a{
+        padding: 0 25px;
+        display: flex;
+        align-items: center;
+        text-decoration: none; /* 去掉下划线 */
+        font-weight: bold; /* 加粗字体 */
+        color: white;
+      }
+      Img{
+        width: 60px; /* 设置图片的宽度 */
+        height: 60px; /* 设置图片的高度 */
+        border-radius: 50%; /* 将图片裁剪为圆形 */
+        object-fit: cover; /* 保持图片的宽高比 */
+        margin-top: 12px;
+        border: 2px solid #ffffff;
+        margin-left: 2px;
+       }
+       transition: transition 0.3s ease-in-out;
+      .nav-item2-a:hover{
+        color: #289ef8;
+        text-shadow: #ffffff;
+        background-color: #1e5fee;
+        font-weight: bold;
+        font-size: 20px;
+//inline 元素不会在新行上开始，并且只占据它的内容所需的宽度。常见的 inline 元素有 <span> 和 <a>。
+// block 元素会在新行上开始，并且占据整个行的宽度。常见的 block 元素有 <div> 和 <p>。
+// inline-block 元素则具有以下特性：
+// 像 inline 元素一样，不会在新行上开始，可以和其他元素在同一行内排列。
+// 像 block 元素一样，可以设置宽度和高度，并且 padding 和 margin 会生效。
+// 在你的例子中，使用 display: inline-block; 可以让背景颜色覆盖整个 padding 区域，同时保持元素在同一行内排列
+        display: inline-block;
+      }
+    }
+  }
+}
+
+.body-container{
+  margin: 0px auto;
+  padding-top: 90px;
+  width:1350px;
+  min-height: calc(100vh - #{150px});
+}
+
+.footer{
+  margin-top: 30px;
+  height: 60px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.a-link{
+  text-decoration: none; 
+    font-weight: bold; 
+    color: #4b73eb; 
+}

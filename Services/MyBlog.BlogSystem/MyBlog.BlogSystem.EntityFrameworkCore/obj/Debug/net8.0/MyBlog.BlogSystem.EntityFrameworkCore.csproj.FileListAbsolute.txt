@@ -1,0 +1,15 @@
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.EntityFrameworkCore\bin\Debug\net8.0\MyBlog.BlogSystem.EntityFrameworkCore.deps.json
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.EntityFrameworkCore\bin\Debug\net8.0\MyBlog.BlogSystem.EntityFrameworkCore.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.EntityFrameworkCore\bin\Debug\net8.0\MyBlog.BlogSystem.EntityFrameworkCore.pdb
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.EntityFrameworkCore\bin\Debug\net8.0\MyBlog.BlogSystem.Domain.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.EntityFrameworkCore\bin\Debug\net8.0\MyBlog.BlogSystem.Domain.pdb
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.EntityFrameworkCore\obj\Debug\net8.0\MyBlog.BlogSystem.EntityFrameworkCore.csproj.AssemblyReference.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.EntityFrameworkCore\obj\Debug\net8.0\MyBlog.BlogSystem.EntityFrameworkCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.EntityFrameworkCore\obj\Debug\net8.0\MyBlog.BlogSystem.EntityFrameworkCore.AssemblyInfoInputs.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.EntityFrameworkCore\obj\Debug\net8.0\MyBlog.BlogSystem.EntityFrameworkCore.AssemblyInfo.cs
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.EntityFrameworkCore\obj\Debug\net8.0\MyBlog.BlogSystem.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.EntityFrameworkCore\obj\Debug\net8.0\MyBlog.B.932DE31A.Up2Date
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.EntityFrameworkCore\obj\Debug\net8.0\MyBlog.BlogSystem.EntityFrameworkCore.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.EntityFrameworkCore\obj\Debug\net8.0\refint\MyBlog.BlogSystem.EntityFrameworkCore.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.EntityFrameworkCore\obj\Debug\net8.0\MyBlog.BlogSystem.EntityFrameworkCore.pdb
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.EntityFrameworkCore\obj\Debug\net8.0\ref\MyBlog.BlogSystem.EntityFrameworkCore.dll

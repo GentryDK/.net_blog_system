@@ -1,0 +1,17 @@
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.HttpApi.Client\bin\Release\net8.0\MyBlog.BlogView.HttpApi.Client.deps.json
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.HttpApi.Client\bin\Release\net8.0\MyBlog.BlogView.HttpApi.Client.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.HttpApi.Client\bin\Release\net8.0\MyBlog.BlogView.HttpApi.Client.pdb
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.HttpApi.Client\bin\Release\net8.0\MyBlog.BlogView.Application.Contract.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.HttpApi.Client\bin\Release\net8.0\MyBlog.BlogView.Domain.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.HttpApi.Client\bin\Release\net8.0\MyBlog.BlogView.Application.Contract.pdb
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.HttpApi.Client\bin\Release\net8.0\MyBlog.BlogView.Domain.pdb
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.HttpApi.Client\obj\Release\net8.0\MyBlog.BlogView.HttpApi.Client.csproj.AssemblyReference.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.HttpApi.Client\obj\Release\net8.0\MyBlog.BlogView.HttpApi.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.HttpApi.Client\obj\Release\net8.0\MyBlog.BlogView.HttpApi.Client.AssemblyInfoInputs.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.HttpApi.Client\obj\Release\net8.0\MyBlog.BlogView.HttpApi.Client.AssemblyInfo.cs
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.HttpApi.Client\obj\Release\net8.0\MyBlog.BlogView.HttpApi.Client.csproj.CoreCompileInputs.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.HttpApi.Client\obj\Release\net8.0\MyBlog.B.9B281785.Up2Date
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.HttpApi.Client\obj\Release\net8.0\MyBlog.BlogView.HttpApi.Client.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.HttpApi.Client\obj\Release\net8.0\refint\MyBlog.BlogView.HttpApi.Client.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.HttpApi.Client\obj\Release\net8.0\MyBlog.BlogView.HttpApi.Client.pdb
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.HttpApi.Client\obj\Release\net8.0\ref\MyBlog.BlogView.HttpApi.Client.dll

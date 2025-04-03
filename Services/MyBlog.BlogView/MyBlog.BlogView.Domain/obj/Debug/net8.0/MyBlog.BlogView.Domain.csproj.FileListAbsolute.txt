@@ -1,0 +1,12 @@
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.Domain\bin\Debug\net8.0\MyBlog.BlogView.Domain.deps.json
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.Domain\bin\Debug\net8.0\MyBlog.BlogView.Domain.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.Domain\bin\Debug\net8.0\MyBlog.BlogView.Domain.pdb
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.Domain\obj\Debug\net8.0\MyBlog.BlogView.Domain.csproj.AssemblyReference.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.Domain\obj\Debug\net8.0\MyBlog.BlogView.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.Domain\obj\Debug\net8.0\MyBlog.BlogView.Domain.AssemblyInfoInputs.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.Domain\obj\Debug\net8.0\MyBlog.BlogView.Domain.AssemblyInfo.cs
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.Domain\obj\Debug\net8.0\MyBlog.BlogView.Domain.csproj.CoreCompileInputs.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.Domain\obj\Debug\net8.0\MyBlog.BlogView.Domain.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.Domain\obj\Debug\net8.0\refint\MyBlog.BlogView.Domain.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.Domain\obj\Debug\net8.0\MyBlog.BlogView.Domain.pdb
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.Domain\obj\Debug\net8.0\ref\MyBlog.BlogView.Domain.dll

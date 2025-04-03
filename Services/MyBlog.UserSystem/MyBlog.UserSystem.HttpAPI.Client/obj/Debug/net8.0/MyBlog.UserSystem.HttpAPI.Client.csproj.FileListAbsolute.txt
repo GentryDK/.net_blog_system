@@ -1,0 +1,12 @@
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.HttpAPI.Client\bin\Debug\net8.0\MyBlog.UserSystem.HttpAPI.Client.deps.json
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.HttpAPI.Client\bin\Debug\net8.0\MyBlog.UserSystem.HttpAPI.Client.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.HttpAPI.Client\bin\Debug\net8.0\MyBlog.UserSystem.HttpAPI.Client.pdb
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.HttpAPI.Client\obj\Debug\net8.0\MyBlog.UserSystem.HttpAPI.Client.csproj.AssemblyReference.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.HttpAPI.Client\obj\Debug\net8.0\MyBlog.UserSystem.HttpAPI.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.HttpAPI.Client\obj\Debug\net8.0\MyBlog.UserSystem.HttpAPI.Client.AssemblyInfoInputs.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.HttpAPI.Client\obj\Debug\net8.0\MyBlog.UserSystem.HttpAPI.Client.AssemblyInfo.cs
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.HttpAPI.Client\obj\Debug\net8.0\MyBlog.UserSystem.HttpAPI.Client.csproj.CoreCompileInputs.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.HttpAPI.Client\obj\Debug\net8.0\MyBlog.UserSystem.HttpAPI.Client.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.HttpAPI.Client\obj\Debug\net8.0\refint\MyBlog.UserSystem.HttpAPI.Client.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.HttpAPI.Client\obj\Debug\net8.0\MyBlog.UserSystem.HttpAPI.Client.pdb
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.HttpAPI.Client\obj\Debug\net8.0\ref\MyBlog.UserSystem.HttpAPI.Client.dll

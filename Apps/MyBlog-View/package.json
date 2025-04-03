@@ -1,0 +1,38 @@
+{
+  "name": "login-system",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "core-js": "^3.8.3",
+    "element-plus": "^2.8.3",
+    "highlight.js": "^11.11.1",
+    "marked": "^15.0.7",
+    "path": "^0.12.7",
+    "pinia": "^3.0.1",
+    "vue": "^3.2.13",
+    "vue-class-component": "^8.0.0-0",
+    "vue-router": "^4.0.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "postcss": "^8.4.45",
+    "sass": "^1.78.0",
+    "sass-loader": "^12.6.0",
+    "typescript": "^5.7.3",
+    "webpack-cli": "^5.1.4"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}

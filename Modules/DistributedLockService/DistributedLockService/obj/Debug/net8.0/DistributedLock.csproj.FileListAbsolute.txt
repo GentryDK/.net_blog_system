@@ -1,0 +1,12 @@
+C:\Users\DK\Desktop\MyBlog\Modules\DistributedLockService\DistributedLockService\bin\Debug\net8.0\DistributedLock.deps.json
+C:\Users\DK\Desktop\MyBlog\Modules\DistributedLockService\DistributedLockService\bin\Debug\net8.0\DistributedLock.dll
+C:\Users\DK\Desktop\MyBlog\Modules\DistributedLockService\DistributedLockService\bin\Debug\net8.0\DistributedLock.pdb
+C:\Users\DK\Desktop\MyBlog\Modules\DistributedLockService\DistributedLockService\obj\Debug\net8.0\DistributedLock.csproj.AssemblyReference.cache
+C:\Users\DK\Desktop\MyBlog\Modules\DistributedLockService\DistributedLockService\obj\Debug\net8.0\DistributedLock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DK\Desktop\MyBlog\Modules\DistributedLockService\DistributedLockService\obj\Debug\net8.0\DistributedLock.AssemblyInfoInputs.cache
+C:\Users\DK\Desktop\MyBlog\Modules\DistributedLockService\DistributedLockService\obj\Debug\net8.0\DistributedLock.AssemblyInfo.cs
+C:\Users\DK\Desktop\MyBlog\Modules\DistributedLockService\DistributedLockService\obj\Debug\net8.0\DistributedLock.csproj.CoreCompileInputs.cache
+C:\Users\DK\Desktop\MyBlog\Modules\DistributedLockService\DistributedLockService\obj\Debug\net8.0\DistributedLock.dll
+C:\Users\DK\Desktop\MyBlog\Modules\DistributedLockService\DistributedLockService\obj\Debug\net8.0\refint\DistributedLock.dll
+C:\Users\DK\Desktop\MyBlog\Modules\DistributedLockService\DistributedLockService\obj\Debug\net8.0\DistributedLock.pdb
+C:\Users\DK\Desktop\MyBlog\Modules\DistributedLockService\DistributedLockService\obj\Debug\net8.0\ref\DistributedLock.dll

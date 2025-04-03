@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp.AspNet.JwpBearer" Version="1.0.0" />
+    <PackageReference Include="Abp.AspNet.JwtBearer" Version="1.0.0" />
+    <PackageReference Include="FileUploadExtension" Version="1.0.1" />
+    <PackageReference Include="HtmlSanitizer" Version="8.1.870" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+    <PackageReference Include="Volo.Abp.Caching.StackExchangeRedis" Version="8.3.0" />
+    <PackageReference Include="Volo.Abp.Ddd.Domain" Version="8.3.0" />
+    <PackageReference Include="Volo.Abp.DistributedLocking" Version="8.3.0" />
+    <PackageReference Include="Volo.Abp.Users.Domain.Shared" Version="8.3.0" />
+  </ItemGroup>
+
+</Project>

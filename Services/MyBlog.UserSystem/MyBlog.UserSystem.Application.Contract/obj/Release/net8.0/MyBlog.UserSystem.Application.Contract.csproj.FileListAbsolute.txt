@@ -1,0 +1,15 @@
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Application.Contract\bin\Release\net8.0\MyBlog.UserSystem.Application.Contract.deps.json
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Application.Contract\bin\Release\net8.0\MyBlog.UserSystem.Application.Contract.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Application.Contract\bin\Release\net8.0\MyBlog.UserSystem.Application.Contract.pdb
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Application.Contract\bin\Release\net8.0\MyBlog.UserSystem.Domain.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Application.Contract\bin\Release\net8.0\MyBlog.UserSystem.Domain.pdb
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Application.Contract\obj\Release\net8.0\MyBlog.UserSystem.Application.Contract.csproj.AssemblyReference.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Application.Contract\obj\Release\net8.0\MyBlog.UserSystem.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Application.Contract\obj\Release\net8.0\MyBlog.UserSystem.Application.Contract.AssemblyInfoInputs.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Application.Contract\obj\Release\net8.0\MyBlog.UserSystem.Application.Contract.AssemblyInfo.cs
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Application.Contract\obj\Release\net8.0\MyBlog.UserSystem.Application.Contract.csproj.CoreCompileInputs.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Application.Contract\obj\Release\net8.0\MyBlog.U.CCF4BA8F.Up2Date
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Application.Contract\obj\Release\net8.0\MyBlog.UserSystem.Application.Contract.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Application.Contract\obj\Release\net8.0\refint\MyBlog.UserSystem.Application.Contract.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Application.Contract\obj\Release\net8.0\MyBlog.UserSystem.Application.Contract.pdb
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.UserSystem\MyBlog.UserSystem.Application.Contract\obj\Release\net8.0\ref\MyBlog.UserSystem.Application.Contract.dll

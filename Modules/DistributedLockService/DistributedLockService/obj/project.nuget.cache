@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "YRYtkZhYmEg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DK\\Desktop\\MyBlog\\Modules\\DistributedLockService\\DistributedLockService\\DistributedLock.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DK\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.1\\microsoft.extensions.caching.abstractions.9.0.1.nupkg.sha512",
+    "C:\\Users\\DK\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.1\\microsoft.extensions.primitives.9.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

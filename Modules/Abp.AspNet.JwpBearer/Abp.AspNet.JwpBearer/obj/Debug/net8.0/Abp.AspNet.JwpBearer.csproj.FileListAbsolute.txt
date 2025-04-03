@@ -1,0 +1,12 @@
+C:\Users\DK\Desktop\MyBlog\Modules\Abp.AspNet.JwpBearer\Abp.AspNet.JwpBearer\bin\Debug\net8.0\Abp.AspNet.JwpBearer.deps.json
+C:\Users\DK\Desktop\MyBlog\Modules\Abp.AspNet.JwpBearer\Abp.AspNet.JwpBearer\bin\Debug\net8.0\Abp.AspNet.JwpBearer.dll
+C:\Users\DK\Desktop\MyBlog\Modules\Abp.AspNet.JwpBearer\Abp.AspNet.JwpBearer\bin\Debug\net8.0\Abp.AspNet.JwpBearer.pdb
+C:\Users\DK\Desktop\MyBlog\Modules\Abp.AspNet.JwpBearer\Abp.AspNet.JwpBearer\obj\Debug\net8.0\Abp.AspNet.JwpBearer.csproj.AssemblyReference.cache
+C:\Users\DK\Desktop\MyBlog\Modules\Abp.AspNet.JwpBearer\Abp.AspNet.JwpBearer\obj\Debug\net8.0\Abp.AspNet.JwpBearer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DK\Desktop\MyBlog\Modules\Abp.AspNet.JwpBearer\Abp.AspNet.JwpBearer\obj\Debug\net8.0\Abp.AspNet.JwpBearer.AssemblyInfoInputs.cache
+C:\Users\DK\Desktop\MyBlog\Modules\Abp.AspNet.JwpBearer\Abp.AspNet.JwpBearer\obj\Debug\net8.0\Abp.AspNet.JwpBearer.AssemblyInfo.cs
+C:\Users\DK\Desktop\MyBlog\Modules\Abp.AspNet.JwpBearer\Abp.AspNet.JwpBearer\obj\Debug\net8.0\Abp.AspNet.JwpBearer.csproj.CoreCompileInputs.cache
+C:\Users\DK\Desktop\MyBlog\Modules\Abp.AspNet.JwpBearer\Abp.AspNet.JwpBearer\obj\Debug\net8.0\Abp.AspNet.JwpBearer.dll
+C:\Users\DK\Desktop\MyBlog\Modules\Abp.AspNet.JwpBearer\Abp.AspNet.JwpBearer\obj\Debug\net8.0\refint\Abp.AspNet.JwpBearer.dll
+C:\Users\DK\Desktop\MyBlog\Modules\Abp.AspNet.JwpBearer\Abp.AspNet.JwpBearer\obj\Debug\net8.0\Abp.AspNet.JwpBearer.pdb
+C:\Users\DK\Desktop\MyBlog\Modules\Abp.AspNet.JwpBearer\Abp.AspNet.JwpBearer\obj\Debug\net8.0\ref\Abp.AspNet.JwpBearer.dll

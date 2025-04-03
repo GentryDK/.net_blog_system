@@ -1,0 +1,2523 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "UserSystem",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/abp/api-definition": {
+      "get": {
+        "tags": [
+          "AbpApiDefinition"
+        ],
+        "parameters": [
+          {
+            "name": "IncludeTypes",
+            "in": "query",
+            "schema": {
+              "type": "boolean"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApplicationApiDescriptionModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApplicationApiDescriptionModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApplicationApiDescriptionModel"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              }
+            }
+          },
+          "501": {
+            "description": "Not Implemented",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/abp/application-configuration": {
+      "get": {
+        "tags": [
+          "AbpApplicationConfiguration"
+        ],
+        "parameters": [
+          {
+            "name": "IncludeLocalizationResources",
+            "in": "query",
+            "schema": {
+              "type": "boolean"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApplicationConfigurationDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApplicationConfigurationDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApplicationConfigurationDto"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              }
+            }
+          },
+          "501": {
+            "description": "Not Implemented",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/abp/application-localization": {
+      "get": {
+        "tags": [
+          "AbpApplicationLocalization"
+        ],
+        "parameters": [
+          {
+            "name": "CultureName",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "OnlyDynamics",
+            "in": "query",
+            "schema": {
+              "type": "boolean"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApplicationLocalizationDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApplicationLocalizationDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApplicationLocalizationDto"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              }
+            }
+          },
+          "501": {
+            "description": "Not Implemented",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RemoteServiceErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/MyBlogView/Post/GetPosts": {
+      "get": {
+        "tags": [
+          "Post"
+        ],
+        "parameters": [
+          {
+            "name": "pageIndex",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PostTitle",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "PostTypeId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PostInfoDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PostInfoDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PostInfoDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/MyBlogView/Post/GetPost": {
+      "get": {
+        "tags": [
+          "Post"
+        ],
+        "parameters": [
+          {
+            "name": "postId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PostDetailDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PostDetailDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PostDetailDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/MyBlogView/PostType/GetPostTypes": {
+      "get": {
+        "tags": [
+          "PostType"
+        ],
+        "parameters": [
+          {
+            "name": "pageIndex",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PostTypeDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PostTypeDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PostTypeDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/MyBlogView/PostType/GetPostType": {
+      "get": {
+        "tags": [
+          "PostType"
+        ],
+        "parameters": [
+          {
+            "name": "postTypeId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PostTypeDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PostTypeDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PostTypeDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/MyBlogView/PostType/GetPostTypeCount": {
+      "get": {
+        "tags": [
+          "PostType"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/MyBlogView/Reply/GetPostReply": {
+      "get": {
+        "tags": [
+          "Reply"
+        ],
+        "parameters": [
+          {
+            "name": "postReplyIndex",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "postReplySize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "postId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "commentReplyIndex",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "commentReplySize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 5
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReplyInfoDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReplyInfoDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReplyInfoDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/MyBlogView/Reply/GetCommentReply": {
+      "get": {
+        "tags": [
+          "Reply"
+        ],
+        "parameters": [
+          {
+            "name": "commentReplyIndex",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "commentReplySize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "replyId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReplyInfoDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReplyInfoDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReplyInfoDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/MyBlogView/Reply/AddPostReply": {
+      "post": {
+        "tags": [
+          "Reply"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Id": {
+                    "type": "string"
+                  },
+                  "ReplyContent": {
+                    "type": "string"
+                  },
+                  "HeadUrl": {
+                    "type": "string"
+                  },
+                  "UserName": {
+                    "type": "string"
+                  },
+                  "PostId": {
+                    "type": "string"
+                  },
+                  "ReplyUserName": {
+                    "type": "string"
+                  },
+                  "CreationTime": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "LastModificationTime": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "QuoteReplyId": {
+                    "type": "string"
+                  },
+                  "CommentReplyCount": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "replyDtos": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/ReplyDto"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "ReplyContent": {
+                  "style": "form"
+                },
+                "HeadUrl": {
+                  "style": "form"
+                },
+                "UserName": {
+                  "style": "form"
+                },
+                "PostId": {
+                  "style": "form"
+                },
+                "ReplyUserName": {
+                  "style": "form"
+                },
+                "CreationTime": {
+                  "style": "form"
+                },
+                "LastModificationTime": {
+                  "style": "form"
+                },
+                "QuoteReplyId": {
+                  "style": "form"
+                },
+                "CommentReplyCount": {
+                  "style": "form"
+                },
+                "replyDtos": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MyBlogView/User/GetActiveAdminUser": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "pageIndex",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UsersDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UsersDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UsersDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/MyBlogView/User/GetUserInfo": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserInfoDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserInfoDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserInfoDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/MyBlogView/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ActionApiDescriptionModel": {
+        "type": "object",
+        "properties": {
+          "uniqueName": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "httpMethod": {
+            "type": "string",
+            "nullable": true
+          },
+          "url": {
+            "type": "string",
+            "nullable": true
+          },
+          "supportedVersions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "parametersOnMethod": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/MethodParameterApiDescriptionModel"
+            },
+            "nullable": true
+          },
+          "parameters": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ParameterApiDescriptionModel"
+            },
+            "nullable": true
+          },
+          "returnValue": {
+            "$ref": "#/components/schemas/ReturnValueApiDescriptionModel"
+          },
+          "allowAnonymous": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "implementFrom": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApplicationApiDescriptionModel": {
+        "type": "object",
+        "properties": {
+          "modules": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/ModuleApiDescriptionModel"
+            },
+            "nullable": true
+          },
+          "types": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/TypeApiDescriptionModel"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApplicationAuthConfigurationDto": {
+        "type": "object",
+        "properties": {
+          "grantedPolicies": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "boolean"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApplicationConfigurationDto": {
+        "type": "object",
+        "properties": {
+          "localization": {
+            "$ref": "#/components/schemas/ApplicationLocalizationConfigurationDto"
+          },
+          "auth": {
+            "$ref": "#/components/schemas/ApplicationAuthConfigurationDto"
+          },
+          "setting": {
+            "$ref": "#/components/schemas/ApplicationSettingConfigurationDto"
+          },
+          "currentUser": {
+            "$ref": "#/components/schemas/CurrentUserDto"
+          },
+          "features": {
+            "$ref": "#/components/schemas/ApplicationFeatureConfigurationDto"
+          },
+          "globalFeatures": {
+            "$ref": "#/components/schemas/ApplicationGlobalFeatureConfigurationDto"
+          },
+          "multiTenancy": {
+            "$ref": "#/components/schemas/MultiTenancyInfoDto"
+          },
+          "currentTenant": {
+            "$ref": "#/components/schemas/CurrentTenantDto"
+          },
+          "timing": {
+            "$ref": "#/components/schemas/TimingDto"
+          },
+          "clock": {
+            "$ref": "#/components/schemas/ClockDto"
+          },
+          "objectExtensions": {
+            "$ref": "#/components/schemas/ObjectExtensionsDto"
+          },
+          "extraProperties": {
+            "type": "object",
+            "additionalProperties": { },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApplicationFeatureConfigurationDto": {
+        "type": "object",
+        "properties": {
+          "values": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string",
+              "nullable": true
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApplicationGlobalFeatureConfigurationDto": {
+        "type": "object",
+        "properties": {
+          "enabledFeatures": {
+            "uniqueItems": true,
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApplicationLocalizationConfigurationDto": {
+        "type": "object",
+        "properties": {
+          "values": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "string"
+              }
+            },
+            "nullable": true
+          },
+          "resources": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/ApplicationLocalizationResourceDto"
+            },
+            "nullable": true
+          },
+          "languages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/LanguageInfo"
+            },
+            "nullable": true
+          },
+          "currentCulture": {
+            "$ref": "#/components/schemas/CurrentCultureDto"
+          },
+          "defaultResourceName": {
+            "type": "string",
+            "nullable": true
+          },
+          "languagesMap": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/NameValue"
+              }
+            },
+            "nullable": true
+          },
+          "languageFilesMap": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/NameValue"
+              }
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApplicationLocalizationDto": {
+        "type": "object",
+        "properties": {
+          "resources": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/ApplicationLocalizationResourceDto"
+            },
+            "nullable": true
+          },
+          "currentCulture": {
+            "$ref": "#/components/schemas/CurrentCultureDto"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApplicationLocalizationResourceDto": {
+        "type": "object",
+        "properties": {
+          "texts": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "baseResources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApplicationSettingConfigurationDto": {
+        "type": "object",
+        "properties": {
+          "values": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string",
+              "nullable": true
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ClockDto": {
+        "type": "object",
+        "properties": {
+          "kind": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ControllerApiDescriptionModel": {
+        "type": "object",
+        "properties": {
+          "controllerName": {
+            "type": "string",
+            "nullable": true
+          },
+          "controllerGroupName": {
+            "type": "string",
+            "nullable": true
+          },
+          "isRemoteService": {
+            "type": "boolean"
+          },
+          "isIntegrationService": {
+            "type": "boolean"
+          },
+          "apiVersion": {
+            "type": "string",
+            "nullable": true
+          },
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "interfaces": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ControllerInterfaceApiDescriptionModel"
+            },
+            "nullable": true
+          },
+          "actions": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/ActionApiDescriptionModel"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ControllerInterfaceApiDescriptionModel": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "methods": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/InterfaceMethodApiDescriptionModel"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CurrentCultureDto": {
+        "type": "object",
+        "properties": {
+          "displayName": {
+            "type": "string",
+            "nullable": true
+          },
+          "englishName": {
+            "type": "string",
+            "nullable": true
+          },
+          "threeLetterIsoLanguageName": {
+            "type": "string",
+            "nullable": true
+          },
+          "twoLetterIsoLanguageName": {
+            "type": "string",
+            "nullable": true
+          },
+          "isRightToLeft": {
+            "type": "boolean"
+          },
+          "cultureName": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "nativeName": {
+            "type": "string",
+            "nullable": true
+          },
+          "dateTimeFormat": {
+            "$ref": "#/components/schemas/DateTimeFormatDto"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CurrentTenantDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "isAvailable": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CurrentUserDto": {
+        "type": "object",
+        "properties": {
+          "isAuthenticated": {
+            "type": "boolean"
+          },
+          "id": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "tenantId": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "impersonatorUserId": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "impersonatorTenantId": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "impersonatorUserName": {
+            "type": "string",
+            "nullable": true
+          },
+          "impersonatorTenantName": {
+            "type": "string",
+            "nullable": true
+          },
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "surName": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailVerified": {
+            "type": "boolean"
+          },
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumberVerified": {
+            "type": "boolean"
+          },
+          "roles": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "sessionId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DateTimeFormatDto": {
+        "type": "object",
+        "properties": {
+          "calendarAlgorithmType": {
+            "type": "string",
+            "nullable": true
+          },
+          "dateTimeFormatLong": {
+            "type": "string",
+            "nullable": true
+          },
+          "shortDatePattern": {
+            "type": "string",
+            "nullable": true
+          },
+          "fullDateTimePattern": {
+            "type": "string",
+            "nullable": true
+          },
+          "dateSeparator": {
+            "type": "string",
+            "nullable": true
+          },
+          "shortTimePattern": {
+            "type": "string",
+            "nullable": true
+          },
+          "longTimePattern": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EntityExtensionDto": {
+        "type": "object",
+        "properties": {
+          "properties": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/ExtensionPropertyDto"
+            },
+            "nullable": true
+          },
+          "configuration": {
+            "type": "object",
+            "additionalProperties": { },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ExtensionEnumDto": {
+        "type": "object",
+        "properties": {
+          "fields": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ExtensionEnumFieldDto"
+            },
+            "nullable": true
+          },
+          "localizationResource": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ExtensionEnumFieldDto": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "value": {
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ExtensionPropertyApiCreateDto": {
+        "type": "object",
+        "properties": {
+          "isAvailable": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ExtensionPropertyApiDto": {
+        "type": "object",
+        "properties": {
+          "onGet": {
+            "$ref": "#/components/schemas/ExtensionPropertyApiGetDto"
+          },
+          "onCreate": {
+            "$ref": "#/components/schemas/ExtensionPropertyApiCreateDto"
+          },
+          "onUpdate": {
+            "$ref": "#/components/schemas/ExtensionPropertyApiUpdateDto"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ExtensionPropertyApiGetDto": {
+        "type": "object",
+        "properties": {
+          "isAvailable": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ExtensionPropertyApiUpdateDto": {
+        "type": "object",
+        "properties": {
+          "isAvailable": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ExtensionPropertyAttributeDto": {
+        "type": "object",
+        "properties": {
+          "typeSimple": {
+            "type": "string",
+            "nullable": true
+          },
+          "config": {
+            "type": "object",
+            "additionalProperties": { },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ExtensionPropertyDto": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "typeSimple": {
+            "type": "string",
+            "nullable": true
+          },
+          "displayName": {
+            "$ref": "#/components/schemas/LocalizableStringDto"
+          },
+          "api": {
+            "$ref": "#/components/schemas/ExtensionPropertyApiDto"
+          },
+          "ui": {
+            "$ref": "#/components/schemas/ExtensionPropertyUiDto"
+          },
+          "attributes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ExtensionPropertyAttributeDto"
+            },
+            "nullable": true
+          },
+          "configuration": {
+            "type": "object",
+            "additionalProperties": { },
+            "nullable": true
+          },
+          "defaultValue": {
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ExtensionPropertyUiDto": {
+        "type": "object",
+        "properties": {
+          "onTable": {
+            "$ref": "#/components/schemas/ExtensionPropertyUiTableDto"
+          },
+          "onCreateForm": {
+            "$ref": "#/components/schemas/ExtensionPropertyUiFormDto"
+          },
+          "onEditForm": {
+            "$ref": "#/components/schemas/ExtensionPropertyUiFormDto"
+          },
+          "lookup": {
+            "$ref": "#/components/schemas/ExtensionPropertyUiLookupDto"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ExtensionPropertyUiFormDto": {
+        "type": "object",
+        "properties": {
+          "isVisible": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ExtensionPropertyUiLookupDto": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string",
+            "nullable": true
+          },
+          "resultListPropertyName": {
+            "type": "string",
+            "nullable": true
+          },
+          "displayPropertyName": {
+            "type": "string",
+            "nullable": true
+          },
+          "valuePropertyName": {
+            "type": "string",
+            "nullable": true
+          },
+          "filterParamName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ExtensionPropertyUiTableDto": {
+        "type": "object",
+        "properties": {
+          "isVisible": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "IanaTimeZone": {
+        "type": "object",
+        "properties": {
+          "timeZoneName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "InterfaceMethodApiDescriptionModel": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "parametersOnMethod": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/MethodParameterApiDescriptionModel"
+            },
+            "nullable": true
+          },
+          "returnValue": {
+            "$ref": "#/components/schemas/ReturnValueApiDescriptionModel"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LanguageInfo": {
+        "type": "object",
+        "properties": {
+          "cultureName": {
+            "type": "string",
+            "nullable": true
+          },
+          "uiCultureName": {
+            "type": "string",
+            "nullable": true
+          },
+          "displayName": {
+            "type": "string",
+            "nullable": true
+          },
+          "twoLetterISOLanguageName": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LocalizableStringDto": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "resource": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MethodParameterApiDescriptionModel": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "typeAsString": {
+            "type": "string",
+            "nullable": true
+          },
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "typeSimple": {
+            "type": "string",
+            "nullable": true
+          },
+          "isOptional": {
+            "type": "boolean"
+          },
+          "defaultValue": {
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ModuleApiDescriptionModel": {
+        "type": "object",
+        "properties": {
+          "rootPath": {
+            "type": "string",
+            "nullable": true
+          },
+          "remoteServiceName": {
+            "type": "string",
+            "nullable": true
+          },
+          "controllers": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/ControllerApiDescriptionModel"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ModuleExtensionDto": {
+        "type": "object",
+        "properties": {
+          "entities": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/EntityExtensionDto"
+            },
+            "nullable": true
+          },
+          "configuration": {
+            "type": "object",
+            "additionalProperties": { },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MultiTenancyInfoDto": {
+        "type": "object",
+        "properties": {
+          "isEnabled": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "NameValue": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "value": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ObjectExtensionsDto": {
+        "type": "object",
+        "properties": {
+          "modules": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/ModuleExtensionDto"
+            },
+            "nullable": true
+          },
+          "enums": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/ExtensionEnumDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ParameterApiDescriptionModel": {
+        "type": "object",
+        "properties": {
+          "nameOnMethod": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "jsonName": {
+            "type": "string",
+            "nullable": true
+          },
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "typeSimple": {
+            "type": "string",
+            "nullable": true
+          },
+          "isOptional": {
+            "type": "boolean"
+          },
+          "defaultValue": {
+            "nullable": true
+          },
+          "constraintTypes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "bindingSourceId": {
+            "type": "string",
+            "nullable": true
+          },
+          "descriptorName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PostDetailDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "postTitle": {
+            "type": "string",
+            "nullable": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          },
+          "postCover": {
+            "type": "string",
+            "nullable": true
+          },
+          "subjectId": {
+            "type": "string",
+            "nullable": true
+          },
+          "postTypeId": {
+            "type": "string",
+            "nullable": true
+          },
+          "postTypeName": {
+            "type": "string",
+            "nullable": true
+          },
+          "postContent": {
+            "type": "string",
+            "nullable": true
+          },
+          "createUserId": {
+            "type": "string",
+            "nullable": true
+          },
+          "createUserName": {
+            "type": "string",
+            "nullable": true
+          },
+          "createDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "discuss": {
+            "type": "string",
+            "nullable": true
+          },
+          "editDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "browseTime": {
+            "type": "integer",
+            "format": "int64"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PostDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "postTitle": {
+            "type": "string",
+            "nullable": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          },
+          "postCover": {
+            "type": "string",
+            "nullable": true
+          },
+          "postTypeId": {
+            "type": "string",
+            "nullable": true
+          },
+          "postTypeName": {
+            "type": "string",
+            "nullable": true
+          },
+          "createUserId": {
+            "type": "string",
+            "nullable": true
+          },
+          "createUserName": {
+            "type": "string",
+            "nullable": true
+          },
+          "discuss": {
+            "type": "string",
+            "nullable": true
+          },
+          "createDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "editDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "browseTime": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "postTypeDto": {
+            "$ref": "#/components/schemas/PostTypeDto"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PostInfoDto": {
+        "type": "object",
+        "properties": {
+          "postListDto": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PostDto"
+            },
+            "nullable": true
+          },
+          "postCount": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PostTypeDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "cover": {
+            "type": "string",
+            "nullable": true
+          },
+          "postTypeName": {
+            "type": "string",
+            "nullable": true
+          },
+          "order": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "typeBrief": {
+            "type": "string",
+            "nullable": true
+          },
+          "count": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PropertyApiDescriptionModel": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "jsonName": {
+            "type": "string",
+            "nullable": true
+          },
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "typeSimple": {
+            "type": "string",
+            "nullable": true
+          },
+          "isRequired": {
+            "type": "boolean"
+          },
+          "minLength": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maxLength": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "minimum": {
+            "type": "string",
+            "nullable": true
+          },
+          "maximum": {
+            "type": "string",
+            "nullable": true
+          },
+          "regex": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RemoteServiceErrorInfo": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "nullable": true
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "details": {
+            "type": "string",
+            "nullable": true
+          },
+          "data": {
+            "type": "object",
+            "additionalProperties": { },
+            "nullable": true
+          },
+          "validationErrors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/RemoteServiceValidationErrorInfo"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RemoteServiceErrorResponse": {
+        "type": "object",
+        "properties": {
+          "error": {
+            "$ref": "#/components/schemas/RemoteServiceErrorInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RemoteServiceValidationErrorInfo": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "members": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReplyDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "replyContent": {
+            "type": "string",
+            "nullable": true
+          },
+          "headUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "postId": {
+            "type": "string",
+            "nullable": true
+          },
+          "replyUserName": {
+            "type": "string",
+            "nullable": true
+          },
+          "creationTime": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "lastModificationTime": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "quoteReplyId": {
+            "type": "string",
+            "nullable": true
+          },
+          "commentReplyCount": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "replyDtos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ReplyDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReplyInfoDto": {
+        "type": "object",
+        "properties": {
+          "replyDtos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ReplyDto"
+            },
+            "nullable": true
+          },
+          "postReplyCount": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReturnValueApiDescriptionModel": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "typeSimple": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RoleDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "roleName": {
+            "type": "string",
+            "nullable": true
+          },
+          "roleLevel": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TimeZone": {
+        "type": "object",
+        "properties": {
+          "iana": {
+            "$ref": "#/components/schemas/IanaTimeZone"
+          },
+          "windows": {
+            "$ref": "#/components/schemas/WindowsTimeZone"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TimingDto": {
+        "type": "object",
+        "properties": {
+          "timeZone": {
+            "$ref": "#/components/schemas/TimeZone"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TypeApiDescriptionModel": {
+        "type": "object",
+        "properties": {
+          "baseType": {
+            "type": "string",
+            "nullable": true
+          },
+          "isEnum": {
+            "type": "boolean"
+          },
+          "enumNames": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "enumValues": {
+            "type": "array",
+            "items": { },
+            "nullable": true
+          },
+          "genericArguments": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "properties": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PropertyApiDescriptionModel"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserInfoDto": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "role": {
+            "$ref": "#/components/schemas/RoleDto"
+          },
+          "creationTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "introduction": {
+            "type": "string",
+            "nullable": true
+          },
+          "blogCount": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "headUrl": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UsersDto": {
+        "type": "object",
+        "properties": {
+          "userInfoDtos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/UserInfoDto"
+            },
+            "nullable": true
+          },
+          "count": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WindowsTimeZone": {
+        "type": "object",
+        "properties": {
+          "timeZoneId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "xxxxxxxx",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}

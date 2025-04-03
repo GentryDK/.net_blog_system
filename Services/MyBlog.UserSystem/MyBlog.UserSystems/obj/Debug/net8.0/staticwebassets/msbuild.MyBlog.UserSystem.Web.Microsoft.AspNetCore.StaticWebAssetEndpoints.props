@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/MyBlog.UserSystem.Web/avatars/76bf428795ba4eca921085c9c18df0ac.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\76bf428795ba4eca921085c9c18df0ac.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-c3cZA0rz7wiQixVqdBXjjh\u002BvTCpWS59\u002BDxVU16iUxa4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"269671"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022c3cZA0rz7wiQixVqdBXjjh\u002BvTCpWS59\u002BDxVU16iUxa4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Sep 2024 12:00:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MyBlog.UserSystem.Web/avatars/76bf428795ba4eca921085c9c18df0ac.xnbmw5t24i.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\avatars\76bf428795ba4eca921085c9c18df0ac.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xnbmw5t24i"},{"Name":"integrity","Value":"sha256-c3cZA0rz7wiQixVqdBXjjh\u002BvTCpWS59\u002BDxVU16iUxa4="},{"Name":"label","Value":"_content/MyBlog.UserSystem.Web/avatars/76bf428795ba4eca921085c9c18df0ac.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"269671"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022c3cZA0rz7wiQixVqdBXjjh\u002BvTCpWS59\u002BDxVU16iUxa4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Sep 2024 12:00:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

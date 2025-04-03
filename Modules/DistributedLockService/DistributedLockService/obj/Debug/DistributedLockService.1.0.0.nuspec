@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DistributedLockService</id>
+    <version>1.0.0</version>
+    <authors>DistributedLockService</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.Extensions.Caching.Abstractions" version="9.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\DK\Desktop\MyBlog\Modules\DistributedLockService\DistributedLockService\bin\Debug\net8.0\DistributedLockService.dll" target="lib\net8.0\DistributedLockService.dll" />
+  </files>
+</package>

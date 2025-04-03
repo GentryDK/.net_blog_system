@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Modules\\FileUploadExtension\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A17B60A2-E353-4342-869C-D87120BBE9C7}|FileUploadExtension\\FileUploadExtension.csproj|c:\\users\\dk\\desktop\\myblog\\modules\\fileuploadextension\\fileuploadextension\\fileuploadextension.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A17B60A2-E353-4342-869C-D87120BBE9C7}|FileUploadExtension\\FileUploadExtension.csproj|solutionrelative:fileuploadextension\\fileuploadextension.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A17B60A2-E353-4342-869C-D87120BBE9C7}|FileUploadExtension\\FileUploadExtension.csproj|c:\\users\\dk\\desktop\\myblog\\modules\\fileuploadextension\\fileuploadextension\\uploadextenstion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A17B60A2-E353-4342-869C-D87120BBE9C7}|FileUploadExtension\\FileUploadExtension.csproj|solutionrelative:fileuploadextension\\uploadextenstion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A17B60A2-E353-4342-869C-D87120BBE9C7}|FileUploadExtension\\FileUploadExtension.csproj|c:\\users\\dk\\desktop\\myblog\\modules\\fileuploadextension\\fileuploadextension\\uploadcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A17B60A2-E353-4342-869C-D87120BBE9C7}|FileUploadExtension\\FileUploadExtension.csproj|solutionrelative:fileuploadextension\\uploadcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A17B60A2-E353-4342-869C-D87120BBE9C7}|FileUploadExtension\\FileUploadExtension.csproj|c:\\users\\dk\\desktop\\myblog\\modules\\fileuploadextension\\fileuploadextension\\uploadresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A17B60A2-E353-4342-869C-D87120BBE9C7}|FileUploadExtension\\FileUploadExtension.csproj|solutionrelative:fileuploadextension\\uploadresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileUploadExtension.csproj",
+              "DocumentMoniker": "C:\\Users\\DK\\Desktop\\MyBlog\\Modules\\FileUploadExtension\\FileUploadExtension\\FileUploadExtension.csproj",
+              "RelativeDocumentMoniker": "FileUploadExtension\\FileUploadExtension.csproj",
+              "ToolTip": "C:\\Users\\DK\\Desktop\\MyBlog\\Modules\\FileUploadExtension\\FileUploadExtension\\FileUploadExtension.csproj",
+              "RelativeToolTip": "FileUploadExtension\\FileUploadExtension.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-01T11:35:50.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UploadExtenstion.cs",
+              "DocumentMoniker": "C:\\Users\\DK\\Desktop\\MyBlog\\Modules\\FileUploadExtension\\FileUploadExtension\\UploadExtenstion.cs",
+              "RelativeDocumentMoniker": "FileUploadExtension\\UploadExtenstion.cs",
+              "ToolTip": "C:\\Users\\DK\\Desktop\\MyBlog\\Modules\\FileUploadExtension\\FileUploadExtension\\UploadExtenstion.cs",
+              "RelativeToolTip": "FileUploadExtension\\UploadExtenstion.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T11:32:02.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UploadResult.cs",
+              "DocumentMoniker": "C:\\Users\\DK\\Desktop\\MyBlog\\Modules\\FileUploadExtension\\FileUploadExtension\\UploadResult.cs",
+              "RelativeDocumentMoniker": "FileUploadExtension\\UploadResult.cs",
+              "ToolTip": "C:\\Users\\DK\\Desktop\\MyBlog\\Modules\\FileUploadExtension\\FileUploadExtension\\UploadResult.cs",
+              "RelativeToolTip": "FileUploadExtension\\UploadResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T11:31:21.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UploadContext.cs",
+              "DocumentMoniker": "C:\\Users\\DK\\Desktop\\MyBlog\\Modules\\FileUploadExtension\\FileUploadExtension\\UploadContext.cs",
+              "RelativeDocumentMoniker": "FileUploadExtension\\UploadContext.cs",
+              "ToolTip": "C:\\Users\\DK\\Desktop\\MyBlog\\Modules\\FileUploadExtension\\FileUploadExtension\\UploadContext.cs",
+              "RelativeToolTip": "FileUploadExtension\\UploadContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T11:29:34.437Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

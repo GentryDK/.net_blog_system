@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "8LK2+59iBJbvhF1bDB4qpRnsc6zRmtTvjp0bXUY1lRw=",
+  "Source": "MyBlog.UserSystem.Web",
+  "BasePath": "_content/MyBlog.UserSystem.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MyBlog.UserSystem.Web\\wwwroot",
+      "Source": "MyBlog.UserSystem.Web",
+      "ContentRoot": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.UserSystem\\MyBlog.UserSystems\\wwwroot\\",
+      "BasePath": "_content/MyBlog.UserSystem.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

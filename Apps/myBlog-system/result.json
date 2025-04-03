@@ -1,0 +1,73 @@
+{
+    "user": {
+        "aliases": {},
+        "mappings": {
+            "properties": {
+                "Age": {
+                    "type": "long"
+                },
+                "Id": {
+                    "type": "long"
+                },
+                "UserName": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "address": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "age": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "id": {
+                    "type": "long"
+                },
+                "username": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                }
+            }
+        },
+        "settings": {
+            "index": {
+                "routing": {
+                    "allocation": {
+                        "include": {
+                            "_tier_preference": "data_content"
+                        }
+                    }
+                },
+                "number_of_shards": "1",
+                "provided_name": "user",
+                "creation_date": "1721922326167",
+                "number_of_replicas": "1",
+                "uuid": "ZdDBsFsBRiuAiuqH7CIoZA",
+                "version": {
+                    "created": "8500003"
+                }
+            }
+        }
+    }
+}

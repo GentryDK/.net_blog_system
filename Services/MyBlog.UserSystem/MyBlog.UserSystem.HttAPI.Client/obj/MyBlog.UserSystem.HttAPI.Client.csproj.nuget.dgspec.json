@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.UserSystem\\MyBlog.UserSystem.HttAPI.Client\\MyBlog.UserSystem.HttAPI.Client.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.UserSystem\\MyBlog.UserSystem.HttAPI.Client\\MyBlog.UserSystem.HttAPI.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.UserSystem\\MyBlog.UserSystem.HttAPI.Client\\MyBlog.UserSystem.HttAPI.Client.csproj",
+        "projectName": "MyBlog.UserSystem.HttAPI.Client",
+        "projectPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.UserSystem\\MyBlog.UserSystem.HttAPI.Client\\MyBlog.UserSystem.HttAPI.Client.csproj",
+        "packagesPath": "C:\\Users\\DK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DK\\Desktop\\MyBlog\\Services\\MyBlog.UserSystem\\MyBlog.UserSystem.HttAPI.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\DK\\Desktop\\Community\\nupkgs": {},
+          "C:\\Users\\DK\\Desktop\\MyBlog\\Nupkgs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

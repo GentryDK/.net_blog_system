@@ -1,0 +1,16 @@
+highlight.js：这是一个用于代码语法高亮的库。它可以在网页上高亮显示代码，使其更易读。支持多种编程语言，并且可以自动检测语言
+
+Sass：Sass（Syntactically Awesome Style Sheets）是一种CSS预处理器。它允许你使用变量、嵌套规则、混入（mixin）等高级功能来编写更加简洁、可维护的样式代码。最终会被编译成普通的CSS代码，供浏览器使用
+
+sass-loader：这是一个Webpack加载器，用于加载和编译Sass/SCSS文件为CSS。它通常与css-loader和style-loader一起使用，将样式插入到DOM中，或者将样式输出到独立的文件中
+
+path 是 Node.js 的一个核心模块，用于处理和解析文件路径。它提供了一些实用的方法来操作路径字符串，确保跨平台的路径处理一致性。
+以下是一些常用的方法：
+path.join()：用于连接路径片段，生成一个规范化的路径字符串。
+path.resolve()：将路径或路径片段解析为绝对路径。
+path.basename()：返回路径的最后一部分，通常是文件名。
+path.dirname()：返回路径中代表文件夹的部分。
+path.extname()：返回路径中的文件扩展名
+
+
+在\src\assets\scss

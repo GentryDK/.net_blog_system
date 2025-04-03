@@ -1,0 +1,17 @@
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.HttpApi.Client\bin\Debug\net8.0\MyBlog.BlogSystem.HttpApi.Client.deps.json
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.HttpApi.Client\bin\Debug\net8.0\MyBlog.BlogSystem.HttpApi.Client.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.HttpApi.Client\bin\Debug\net8.0\MyBlog.BlogSystem.HttpApi.Client.pdb
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.HttpApi.Client\bin\Debug\net8.0\MyBlog.BlogSystem.Application.Contract.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.HttpApi.Client\bin\Debug\net8.0\MyBlog.BlogSystem.Domain.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.HttpApi.Client\bin\Debug\net8.0\MyBlog.BlogSystem.Application.Contract.pdb
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.HttpApi.Client\bin\Debug\net8.0\MyBlog.BlogSystem.Domain.pdb
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.HttpApi.Client\obj\Debug\net8.0\MyBlog.BlogSystem.HttpApi.Client.csproj.AssemblyReference.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.HttpApi.Client\obj\Debug\net8.0\MyBlog.BlogSystem.HttpApi.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.HttpApi.Client\obj\Debug\net8.0\MyBlog.BlogSystem.HttpApi.Client.AssemblyInfoInputs.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.HttpApi.Client\obj\Debug\net8.0\MyBlog.BlogSystem.HttpApi.Client.AssemblyInfo.cs
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.HttpApi.Client\obj\Debug\net8.0\MyBlog.BlogSystem.HttpApi.Client.csproj.CoreCompileInputs.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.HttpApi.Client\obj\Debug\net8.0\MyBlog.B.4474F2E8.Up2Date
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.HttpApi.Client\obj\Debug\net8.0\MyBlog.BlogSystem.HttpApi.Client.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.HttpApi.Client\obj\Debug\net8.0\refint\MyBlog.BlogSystem.HttpApi.Client.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.HttpApi.Client\obj\Debug\net8.0\MyBlog.BlogSystem.HttpApi.Client.pdb
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.HttpApi.Client\obj\Debug\net8.0\ref\MyBlog.BlogSystem.HttpApi.Client.dll

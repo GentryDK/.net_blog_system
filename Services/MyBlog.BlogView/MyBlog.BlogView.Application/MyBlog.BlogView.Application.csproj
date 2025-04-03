@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DistributedLock" Version="1.0.0" />
+    <PackageReference Include="Volo.Abp.AspNetCore.SignalR" Version="8.3.0" />
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="8.3.0" />
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="8.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyBlog.BlogView.Application.Contract\MyBlog.BlogView.Application.Contract.csproj" />
+    <ProjectReference Include="..\MyBlog.BlogView.Domain\MyBlog.BlogView.Domain.csproj" />
+    <ProjectReference Include="..\MyBlog.BlogView.EntityFrameworkCore\MyBlog.BlogView.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+
+</Project>

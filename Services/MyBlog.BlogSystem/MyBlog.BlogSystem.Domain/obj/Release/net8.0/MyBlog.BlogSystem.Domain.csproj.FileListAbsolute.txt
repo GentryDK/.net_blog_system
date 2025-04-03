@@ -1,0 +1,12 @@
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.Domain\bin\Release\net8.0\MyBlog.BlogSystem.Domain.deps.json
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.Domain\bin\Release\net8.0\MyBlog.BlogSystem.Domain.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.Domain\bin\Release\net8.0\MyBlog.BlogSystem.Domain.pdb
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.Domain\obj\Release\net8.0\MyBlog.BlogSystem.Domain.csproj.AssemblyReference.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.Domain\obj\Release\net8.0\MyBlog.BlogSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.Domain\obj\Release\net8.0\MyBlog.BlogSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.Domain\obj\Release\net8.0\MyBlog.BlogSystem.Domain.AssemblyInfo.cs
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.Domain\obj\Release\net8.0\MyBlog.BlogSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.Domain\obj\Release\net8.0\MyBlog.BlogSystem.Domain.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.Domain\obj\Release\net8.0\refint\MyBlog.BlogSystem.Domain.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.Domain\obj\Release\net8.0\MyBlog.BlogSystem.Domain.pdb
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogSystem\MyBlog.BlogSystem.Domain\obj\Release\net8.0\ref\MyBlog.BlogSystem.Domain.dll

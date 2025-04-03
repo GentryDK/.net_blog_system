@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "QDEG2d6llB4lx5hk1N8CsZggmR5UVZSeB0NEnPfc3ZM=",
+  "Source": "MyBlog.BlogView.web",
+  "BasePath": "_content/MyBlog.BlogView.web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

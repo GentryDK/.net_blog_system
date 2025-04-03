@@ -1,0 +1,15 @@
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.EntityFrameworkCore\bin\Debug\net8.0\MyBlog.BlogView.EntityFrameworkCore.deps.json
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.EntityFrameworkCore\bin\Debug\net8.0\MyBlog.BlogView.EntityFrameworkCore.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.EntityFrameworkCore\bin\Debug\net8.0\MyBlog.BlogView.EntityFrameworkCore.pdb
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.EntityFrameworkCore\bin\Debug\net8.0\MyBlog.BlogView.Domain.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.EntityFrameworkCore\bin\Debug\net8.0\MyBlog.BlogView.Domain.pdb
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.EntityFrameworkCore\obj\Debug\net8.0\MyBlog.BlogView.EntityFrameworkCore.csproj.AssemblyReference.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.EntityFrameworkCore\obj\Debug\net8.0\MyBlog.BlogView.EntityFrameworkCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.EntityFrameworkCore\obj\Debug\net8.0\MyBlog.BlogView.EntityFrameworkCore.AssemblyInfoInputs.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.EntityFrameworkCore\obj\Debug\net8.0\MyBlog.BlogView.EntityFrameworkCore.AssemblyInfo.cs
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.EntityFrameworkCore\obj\Debug\net8.0\MyBlog.BlogView.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.EntityFrameworkCore\obj\Debug\net8.0\MyBlog.B.928A73F8.Up2Date
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.EntityFrameworkCore\obj\Debug\net8.0\MyBlog.BlogView.EntityFrameworkCore.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.EntityFrameworkCore\obj\Debug\net8.0\refint\MyBlog.BlogView.EntityFrameworkCore.dll
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.EntityFrameworkCore\obj\Debug\net8.0\MyBlog.BlogView.EntityFrameworkCore.pdb
+C:\Users\DK\Desktop\MyBlog\Services\MyBlog.BlogView\MyBlog.BlogView.EntityFrameworkCore\obj\Debug\net8.0\ref\MyBlog.BlogView.EntityFrameworkCore.dll
